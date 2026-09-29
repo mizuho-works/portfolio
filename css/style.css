@@ -337,6 +337,20 @@ section { padding: 120px 40px; }
   display: inline-block;
 }
 
+.work-link {
+  display: block;
+  margin-top: 14px;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  color: var(--color-accent);
+  transition: opacity 0.3s var(--ease);
+}
+.work-link:hover { opacity: 0.6; }
+
+a.work-media {
+  display: block;
+}
+
 /* ---------------- About ---------------- */
 
 .about {
