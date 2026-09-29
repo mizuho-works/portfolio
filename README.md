@@ -2,7 +2,7 @@
 
 松田瑞穂のデザインポートフォリオサイトです。ビルド不要のシンプルなHTML/CSS/JSで構成しています。
 
-🔗 公開URL: https://amanosaaan.github.io/portfolio/
+🔗 公開URL: https://mizuho-works.github.io/portfolio/
 
 ## 構成
 
