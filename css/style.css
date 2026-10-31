@@ -404,15 +404,14 @@ a.work-media {
 .contact-form-btn {
   display: inline-block;
   font-family: var(--font-serif);
-  font-size: 18px;
-  letter-spacing: 0.04em;
-  color: var(--color-bg);
-  background: var(--color-accent);
-  padding: 16px 40px;
-  border-radius: 999px;
-  transition: opacity 0.3s var(--ease), transform 0.3s var(--ease);
+  font-style: italic;
+  font-size: 26px;
+  color: var(--color-text);
+  border-bottom: 1px solid var(--color-text);
+  padding-bottom: 4px;
+  transition: color 0.3s var(--ease), border-color 0.3s var(--ease);
 }
-.contact-form-btn:hover { opacity: 0.85; transform: translateY(-2px); }
+.contact-form-btn:hover { color: var(--color-accent); border-color: var(--color-accent); }
 
 /* ---------------- Footer ---------------- */
 
@@ -484,7 +483,7 @@ a.work-media {
   .work-info { padding: 0 4px; }
   .work-desc { max-width: 100%; }
 
-  .contact-form-btn { font-size: 16px; padding: 14px 32px; }
+  .contact-form-btn { font-size: 20px; }
 
   .to-top { right: 16px; bottom: 16px; width: 42px; height: 42px; }
 }
