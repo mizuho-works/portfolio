@@ -74,4 +74,25 @@
   });
 
   updateToTop();
+
+  /* ---------- Contact form ---------- */
+  const contactForm = document.getElementById("contactForm");
+  const formStatus = document.getElementById("formStatus");
+  const hiddenIframe = document.getElementById("hiddenIframe");
+
+  if (contactForm && hiddenIframe) {
+    let submitted = false;
+
+    contactForm.addEventListener("submit", () => {
+      submitted = true;
+      formStatus.textContent = "送信中…";
+    });
+
+    hiddenIframe.addEventListener("load", () => {
+      if (!submitted) return;
+      formStatus.textContent = "お問い合わせありがとうございます。内容を確認のうえご連絡いたします。";
+      contactForm.reset();
+      submitted = false;
+    });
+  }
 })();
